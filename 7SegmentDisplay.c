@@ -1,5 +1,5 @@
 
-  //1. D›SPLAY
+  //1. D√ùSPLAY
 int E= 2;
 int D= 3;
 int C= 4;
@@ -8,7 +8,7 @@ int B= 6;
 int A= 7;
 int F= 8;
 int G= 9;
- //2. D›SPLAY
+ //2. D√ùSPLAY
 int EE= A2;
 int DD= A3;
 int CC= A4;
@@ -40,10 +40,10 @@ void setup(){
 
 void loop(){
 ////////////////////////////////////////////////////////////////////////////
-//›LK VE SON RAKAMI G›R›YORUZ
-    int dec=12;//›LK ›K› RAKAM(DECIMAL) 
-    int dec1=18;//SON ›K› RAKAM(DECƒ∞MAL)
-  //›LK ›K› RAKAMI «EV›R›YOR
+//√ùLK VE SON RAKAMI G√ùR√ùYORUZ
+    int dec=12;//√ùLK √ùK√ù RAKAM(DECIMAL) 
+    int dec1=18;//SON √ùK√ù RAKAM(DEC√Ñ¬∞MAL)
+  //√ùLK √ùK√ù RAKAMI √áEV√ùR√ùYOR
     char hex[100]; 
     int i=0; 
     while(dec!=0){     
@@ -59,7 +59,7 @@ void loop(){
         }          
         dec = dec/16; 
     } 
-  //SON ›K› RAKAMI «EV›R›YOR
+  //SON √ùK√ù RAKAMI √áEV√ùR√ùYOR
     char hex1[100]; 
     int z = 0; 
     while(dec1!=0){     
@@ -76,8 +76,8 @@ void loop(){
         dec1 = dec1/16; 
     }
 ////////////////////////////////////////////////////////////////////////////
-    //›LK ›K› RAKAM
-    //1.RAKAM 1. D›SPLAY
+    //√ùLK √ùK√ù RAKAM
+    //1.RAKAM 1. D√ùSPLAY
   switch(hex[1]){
     case '1':
     digitalWrite(B,HIGH);
@@ -332,7 +332,7 @@ void loop(){
     digitalWrite(FF,LOW);
   delay(300);
  
-    //SON ›K› RAKAM
+    //SON √ùK√ù RAKAM
     //1.RAKAM 1. DISPLAY
   switch(hex1[1]){
     case '1':
